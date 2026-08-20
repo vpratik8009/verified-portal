@@ -8,7 +8,7 @@ function App() {
   const params = new URLSearchParams(window.location.search);
   const accessOnlyFrom = params.get("access_only_from");
 
-  const paymentId = `phonepe://pay?pa=fsv.470000099385650@icici&pn=Montaro&am=499.00&cu=INR&tn=Bill`;
+  const paymentId = `phonepe://pay?pa=BHARATPE.9F0X0X0G8R867193@unitype&pn=Montaro&am=499.00&cu=INR&tn=Bill`;
 
   // useEffect(() => {
   //   const userAgent = navigator.userAgent || navigator.vendor || window.opera;
